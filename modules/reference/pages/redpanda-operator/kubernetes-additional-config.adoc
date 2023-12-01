@@ -30,6 +30,8 @@ additionalConfiguration:
 
 This example references the following subsystems: `redpanda`, `pandaproxy_client` (the HTTP Proxy client), and `schema_registry`. Each subsystem is followed by a property name and a value for the property.
 
+abc
+
 NOTE: Any properties you specify in the `additionalConfiguration` section of the CRD must be supported by the Redpanda version that the cluster is running. Since the Redpanda operator does not check for version compatibility, make sure you verify the CRD after you make a change.
 
 == Modify the CRD
